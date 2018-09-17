@@ -48,7 +48,8 @@ class login extends Component {
             <br/>
             <input type="password" onChange={this.updatepass} placeholder="enter password here" className="form-control"  />
             <br/>
-             <button className="btn btn-danger" style={{width:"100%"}} onClick={this.login}>Login</button>
+             <button className="btn btn-info" style={{width:"100%"}} onClick={this.login}>Login</button>
+             {/* <button className="btn btn-info" onclick={this.props.show}> Register</button> */}
             
         </div>
         

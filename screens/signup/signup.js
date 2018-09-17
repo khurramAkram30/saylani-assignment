@@ -56,7 +56,7 @@ onshow(){
             <br/>
             <input type="password" onChange={this.updatepass} placeholder="enter password here" className="form-control" value={this.state.pass} />
             <br/>
-             <button className="btn btn-danger" style={{width:"100%"}} onClick={this.onshow}>Signup</button>
+             <button className="btn btn-info" style={{width:"100%"}} onClick={this.onshow}>Signup</button>
             
             </div>
            <div className="col-md-4"></div>
